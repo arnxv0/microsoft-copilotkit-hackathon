@@ -526,3 +526,24 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 > [!IMPORTANT]
 > Some features are still under active development and may not yet work as expected. If you encounter a problem using this template, please [report an issue](https://github.com/CopilotKit/canvas-with-llamaindex/issues/new/choose) to this repository.
+
+
+Build medishare using this as a starter [https://github.com/CopilotKit/canvas-with-llamaindex-composio](https://github.com/CopilotKit/canvas-with-llamaindex-composio)
+Reasoning core with LlamaIndex (structured retrieval + orchestration)
+Action layer with Composio (real-world tool connections & APIs)
+Frontend experience with CopilotKit + AG-UI (native agentic interfaces)
+
+Details:
+left side is the canvas, right side is the chat window. 
+left side has a timeline of all the medical records sumbitted by the patient.
+you can chat with the ai and give it more records and prescriptions and it will add them to the timeline.
+
+you can then ask the agent to send a temp link to the doctors email which has a read only view of the timeline and the doctor can then chat with the ai to get a summary of the patients history and current medications.
+
+Tell me the extra steps for the integrations you need me to build in the composio dashboard to make this work. Also replace openai with google gemini.
+
+
+Assume we are using only these external services and generate the whole project, keeping this as the base [https://github.com/CopilotKit/canvas-with-llamaindex-composio](https://github.com/CopilotKit/canvas-with-llamaindex-composio)
+
+Gmail
+AWS S3
