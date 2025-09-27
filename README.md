@@ -526,3 +526,30 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 > [!IMPORTANT]
 > Some features are still under active development and may not yet work as expected. If you encounter a problem using this template, please [report an issue](https://github.com/CopilotKit/canvas-with-llamaindex/issues/new/choose) to this repository.
+
+
+Build Scout AI using this as a starter [https://github.com/CopilotKit/canvas-with-llamaindex-composio](https://github.com/CopilotKit/canvas-with-llamaindex-composio)
+Reasoning core with LlamaIndex (structured retrieval + orchestration)
+Action layer with Composio (real-world tool connections & APIs)
+Frontend experience with CopilotKit + AG-UI (native agentic interfaces)
+
+Details:
+left side is the canvas, right side is the chat window. 
+left side has a list of all the data sources attached.
+you can chat with the ai and give it links and keys to add more data sources.
+
+below it is a template that you can customize.
+you can chat with the agent to fetch you a report based on what you want. It goes to the databases and generates queries and gets the data. 
+it then stores the data in a local sql lite db.
+it then generates a complex query to get the data you want locally and runs it. Then it gets the data and generates a report for you.
+you can then prompt it to send the report to your email.
+
+Tell me the extra steps for the integrations you need me to build in the composio dashboard to make this work. Also replace openai with google gemini.
+
+
+Assume we are using only these and not the rest and generate the whole project keeping this as a starter [https://github.com/CopilotKit/canvas-with-llamaindex-composio](https://github.com/CopilotKit/canvas-with-llamaindex-composio)
+
+PostgreSQL
+MySQL
+
+Gmail
